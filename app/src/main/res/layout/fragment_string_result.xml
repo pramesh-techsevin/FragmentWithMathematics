@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StringValueFragment.StringResultFragment"
+    android:background="#037C8A">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel1"
+    android:paddingLeft="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/TextViewFirstSecondVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="The First and Last Character of String :-"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewLowerCaseVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewFirstSecondVal"
+        android:layout_marginTop="20dp"
+        android:text="The LowerCase of String :-"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:maxLines="100"/>
+
+    <TextView
+        android:id="@+id/TextViewUpperCaseVal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextViewLowerCaseVal"
+        android:layout_marginTop="20dp"
+        android:text="The UpperCase of String :-"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewDisplayEachVal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/TextViewUpperCaseVal"
+        android:layout_marginTop="20dp"
+        android:text="The Character of String :-"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lin1"
+        android:orientation="vertical"
+        android:layout_below="@id/TextViewDisplayEachVal"
+        >
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>

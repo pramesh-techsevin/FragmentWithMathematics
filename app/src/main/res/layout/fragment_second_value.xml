@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#037C8A"
+    android:focusedByDefault="true"
+    android:focusable="true"
+    tools:context=".IntegerValueFragment.SecondValueFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textval2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Enter Value 2"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <!-- <EditText
+
+         android:id="@+id/edittextval2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/textval2"
+         android:layout_margin="20dp"
+         android:background="#FFFF"
+         android:inputType="number"
+         android:padding="10dp">
+
+         <requestFocus />
+     </EditText>-->
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textinputlayoutval2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textval2"
+        android:focusable="true"
+        android:focusedByDefault="true">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edittextvals2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FFFF"
+            android:focusable="true"
+            android:focusedByDefault="true"
+            android:inputType="number"
+            android:padding="10dp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/nextbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textinputlayoutval2"
+        android:layout_centerInParent="true"
+        android:text="Next" />
+</RelativeLayout>
